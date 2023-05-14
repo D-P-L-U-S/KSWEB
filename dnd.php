@@ -90,12 +90,12 @@ $uname_parts = explode(' ', $uname);
 							</li>
 							<li>
 								<span class="tit"><?= isset($_SESSION['lang']) && $_SESSION['lang'] == 'en' ? 'OS version' : 'Version du SE' ?></span><br>
-								<span class="reply"><?= 'Android 13 • '. $uname_parts[3] . ' ' . $uname_parts[4] . ' ' . $uname_parts[5] . ' ' . $uname_parts[6] . ' ' . $uname_parts[7] ?></span>
+								<span class="reply"><?= isset($_SESSION['lang']) && $_SESSION['lang'] == 'en' ? "Not available" : "Non disponible" ?></span>
 
 							</li>
 							<li>
 								<span class="tit"><?= isset($_SESSION['lang']) && $_SESSION['lang'] == 'en' ? 'Processor architecture' : 'Architecture du processeur' ?></span><br>
-								<span class="reply"><?= $uname_parts[12] ?></span>
+								<span class="reply"><?= isset($uname_parts[12]) ? $uname_parts[12] : 'aarch64' ?></span>
 							</li>
 						</ul>
 					</div>
