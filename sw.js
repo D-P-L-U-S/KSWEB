@@ -1,0 +1,1 @@
+const PREFIX = 'v1';let i = 0;self.addEventListener('install', function (event) {self.skipWaiting();});self.addEventListener('activate', function (event) {clients.claim();});self.addEventListener('fetch', function (event) {i++;});
