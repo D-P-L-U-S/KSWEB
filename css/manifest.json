@@ -1,0 +1,1 @@
+{"name":"KSWEB - Support for dev","short_name":"KSWEB","theme_color":"#4505bb","background_color":"#fff","description":"Gérer efficacement ses hosts avec une interface jolie simple et tres détaillant.","icons":[{"src":"../img/ksweb.png","type":"image/png","sizes":"192x192"}],"start_url":"../?source=pwa","display":"standalone","orientation":"any"}
