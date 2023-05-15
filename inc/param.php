@@ -1,5 +1,4 @@
 <?PHP 
-	session_start();
 	
 	/*
 	* Paramètres d'activation du mode sombre automatique
